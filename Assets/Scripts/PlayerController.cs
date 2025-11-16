@@ -28,6 +28,7 @@ public class Playercontroller : MonoBehaviour
         }
     }
 
+  
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();

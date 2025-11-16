@@ -6,10 +6,10 @@ public class ObstacleSpawner : MonoBehaviour
     private GameObject _obstacle;
 
     [SerializeField]
-    private float _yoffssetmin = 1f, _yoffsetmax = 3f;
+    private float _yoffssetmin = 1f, _yoffsetmax = 1f;
     [SerializeField]
     private Playercontroller _player;
-
+    [SerializeField]
     private float _spawnfrequency = 3f;
 
     private float _timeTillnextspawn = 0f;

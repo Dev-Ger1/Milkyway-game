@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e0e888b-e3a1-4ac3-bd69-a1960618ba77" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Milkyway-game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Milkyway-game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PreFabs/Obstacles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFabs/Obstacles.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/felso cso.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/felso cso.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserInterfacehandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserInterfacehandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/also cso.aseprite" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/also cso.aseprite" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleSpawner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -89,12 +94,15 @@
       <workItem from="1763230308365" duration="394000" />
       <workItem from="1763230820272" duration="2946000" />
       <workItem from="1763233831107" duration="2588000" />
+      <workItem from="1763284217113" duration="1155000" />
+      <workItem from="1763286170738" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="hasUnityReference" value="true" />
