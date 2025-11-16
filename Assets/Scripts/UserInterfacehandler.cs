@@ -2,6 +2,7 @@ using System;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UserInterfaceHandler: MonoBehaviour
 {
@@ -13,6 +14,10 @@ public class UserInterfaceHandler: MonoBehaviour
     private GameObject _menuUI;
     [SerializeField]
     private TextMeshProUGUI _scoreText, _bestScoreText;
+    [SerializeField]
+    public GameObject _restartButton;
+    [SerializeField]
+    public GameObject _endscreen;
     
     
    
@@ -45,5 +50,13 @@ public class UserInterfaceHandler: MonoBehaviour
         _player.transform.position = playerStartpostion;
        _menuUI.SetActive(false);
     }
+
+    public void On_restartbuttonPressed()
+    {
+        _player.SetActive(true); 
+        _player.transform.position = playerStartpostion;
+        _endscreen.SetActive(false);
+    }
+    
     
 }

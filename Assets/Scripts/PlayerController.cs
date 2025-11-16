@@ -10,10 +10,19 @@ public class Playercontroller : MonoBehaviour
     private GameObject _menu;
 
     [SerializeField]
+    public GameObject _endscreen;
+
+    [SerializeField]
     private AudioSource _coinsound;
 
     [SerializeField] 
     private SkyController _skyController;
+    [SerializeField]
+    private AudioSource _jumpsound;
+
+    [SerializeField]
+    private AudioSource _deathsound;
+    
     
     private Rigidbody2D _rigidbody;
     private int _score = 0;
@@ -33,6 +42,7 @@ public class Playercontroller : MonoBehaviour
             return gameObject.activeSelf;
         }
     }
+   
 
   
     private void Awake()
@@ -45,15 +55,22 @@ public class Playercontroller : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             _rigidbody.linearVelocityY = jumpforce;
+            _jumpsound.Play();
+            
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         gameObject.SetActive(false);
-        _menu.SetActive(true);
+        _endscreen.SetActive(true);
         _score = 0;
+        _deathsound.Play();
+        var obstacles = FindObjectsOfType<ObstacleHander>();
+        for(int i = 0; i < obstacles.Length; i++)
+            Destroy(obstacles[i].gameObject);
     }
+    
 
     private void OnTriggerEnter2D(Collider2D collison)
     {
@@ -62,7 +79,7 @@ public class Playercontroller : MonoBehaviour
         _coinsound.Play();
         if(_score % 10 == 0)
         {
-           SkyController.NextSky(); 
+           _skyController.NextSky(); 
         }
     }
 }
