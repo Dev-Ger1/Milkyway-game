@@ -20,8 +20,14 @@ public class Playercontroller : MonoBehaviour
     [SerializeField]
     private AudioSource _jumpsound;
 
+    [SerializeField] 
+    private AudioSource _intro;
+
     [SerializeField]
     private AudioSource _deathsound;
+
+    [SerializeField]
+    private int _valuetillnextsky;
     
     
     private Rigidbody2D _rigidbody;
@@ -48,6 +54,7 @@ public class Playercontroller : MonoBehaviour
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+       
     }
     // Update is called once per frame
     void Update()
@@ -69,6 +76,7 @@ public class Playercontroller : MonoBehaviour
         var obstacles = FindObjectsOfType<ObstacleHander>();
         for(int i = 0; i < obstacles.Length; i++)
             Destroy(obstacles[i].gameObject);
+        _skyController.resetsky();
     }
     
 
@@ -77,10 +85,12 @@ public class Playercontroller : MonoBehaviour
         _score += 1;
         Destroy(collison.transform.parent.gameObject.GetComponent<ObstacleHander>()._Coin);
         _coinsound.Play();
-        if(_score % 10 == 0)
+        if(_score % _valuetillnextsky == 0)
         {
-           _skyController.NextSky(); 
+            _skyController.NextSky(); 
         }
+        
+        
     }
 }
 

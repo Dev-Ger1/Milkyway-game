@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class SkyController : MonoBehaviour
@@ -5,8 +6,21 @@ public class SkyController : MonoBehaviour
     [SerializeField] private GameObject[] skyObjects;
     [SerializeField] private int currentIndex;
 
+    private void Awake()
+    {
+        DisableAll();
+    }
+
     private void Start()
     {
+        DisableAll();
+        if (skyObjects.Length > 0) skyObjects[0].SetActive(true);
+        
+    }
+
+    public void resetsky()
+    {
+        currentIndex = 0;
         DisableAll();
         if (skyObjects.Length > 0) skyObjects[0].SetActive(true);
     }

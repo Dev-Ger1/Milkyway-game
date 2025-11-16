@@ -18,6 +18,9 @@ public class UserInterfaceHandler: MonoBehaviour
     public GameObject _restartButton;
     [SerializeField]
     public GameObject _endscreen;
+    [SerializeField] 
+    private AudioSource _intro;
+
     
     
    
@@ -27,6 +30,7 @@ public class UserInterfaceHandler: MonoBehaviour
 
     private void Start()
     {
+        _intro.Play(); 
         _playercontroller = _player.GetComponent<Playercontroller>();
     }
 
@@ -46,6 +50,7 @@ public class UserInterfaceHandler: MonoBehaviour
 
     public void OnStartPressed()
     {
+        _intro.Stop();
         _player.SetActive(true); 
         _player.transform.position = playerStartpostion;
        _menuUI.SetActive(false);

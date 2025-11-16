@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4e0e888b-e3a1-4ac3-bd69-a1960618ba77" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Milkyway-game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Milkyway-game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PreFabs/Obstacles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFabs/Obstacles.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SkyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SkyController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserInterfacehandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserInterfacehandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/start button.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/start button.aseprite.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,7 @@
       <workItem from="1763286170738" duration="47000" />
       <workItem from="1763288692986" duration="3306000" />
       <workItem from="1763292761157" duration="3412000" />
-      <workItem from="1763296645212" duration="979000" />
+      <workItem from="1763296645212" duration="4888000" />
     </task>
     <servers />
   </component>
