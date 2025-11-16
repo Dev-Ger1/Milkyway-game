@@ -16,5 +16,6 @@ public class ObstacleHander : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
     }
 }

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e0e888b-e3a1-4ac3-bd69-a1960618ba77" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PreFabs/Obstacles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFabs/Obstacles.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/felso cso.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/felso cso.aseprite.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <workItem from="1763229004505" duration="397000" />
       <workItem from="1763230308365" duration="394000" />
       <workItem from="1763230820272" duration="2946000" />
-      <workItem from="1763233831107" duration="1848000" />
+      <workItem from="1763233831107" duration="2588000" />
     </task>
     <servers />
   </component>
