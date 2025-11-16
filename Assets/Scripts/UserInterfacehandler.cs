@@ -14,6 +14,9 @@ public class UserInterfaceHandler: MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI _scoreText, _bestScoreText;
     
+    
+   
+    
     private Playercontroller _playercontroller;
     private int _bestscore = 0;
 
@@ -31,6 +34,9 @@ public class UserInterfaceHandler: MonoBehaviour
             _bestscore = _playercontroller.Score;
             _bestScoreText.text = _bestscore.ToString();
             }
+
+      
+       
     }
 
     public void OnStartPressed()

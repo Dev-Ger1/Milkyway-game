@@ -8,6 +8,12 @@ public class Playercontroller : MonoBehaviour
 
     [SerializeField]
     private GameObject _menu;
+
+    [SerializeField]
+    private AudioSource _coinsound;
+
+    [SerializeField] 
+    private SkyController _skyController;
     
     private Rigidbody2D _rigidbody;
     private int _score = 0;
@@ -52,6 +58,12 @@ public class Playercontroller : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collison)
     {
         _score += 1;
+        Destroy(collison.transform.parent.gameObject.GetComponent<ObstacleHander>()._Coin);
+        _coinsound.Play();
+        if(_score % 10 == 0)
+        {
+           SkyController.NextSky(); 
+        }
     }
 }
 
