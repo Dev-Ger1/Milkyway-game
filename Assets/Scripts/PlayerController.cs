@@ -31,6 +31,9 @@ public class Playercontroller : MonoBehaviour
     
     [SerializeField]
     private AudioSource _10coinsound;
+
+    [SerializeField]
+    public GameObject _returntomenubutton;
     
     
     private Rigidbody2D _rigidbody;
@@ -80,6 +83,7 @@ public class Playercontroller : MonoBehaviour
         for(int i = 0; i < obstacles.Length; i++)
             Destroy(obstacles[i].gameObject);
         _skyController.resetsky();
+       _returntomenubutton.SetActive(true); 
     }
     
 

@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4e0e888b-e3a1-4ac3-bd69-a1960618ba77" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Milkyway-game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Milkyway-game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PreFabs/Obstacles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFabs/Obstacles.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleSpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserInterfacehandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserInterfacehandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/THE BIG TITLE.aseprite" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/THE BIG TITLE.aseprite" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Unity\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\Unity\6000.2.12f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath D:\.Github\mindegy\Milkyway-game -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\.Github\mindegy\Milkyway-game" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -62,7 +63,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Unity\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\Unity\6000.2.12f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\.Github\mindegy\Milkyway-game -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\.Github\mindegy\Milkyway-game" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -110,6 +111,7 @@
       <workItem from="1763296645212" duration="6637000" />
       <workItem from="1763314363192" duration="986000" />
       <workItem from="1763316225789" duration="700000" />
+      <workItem from="1763407092910" duration="2050000" />
     </task>
     <servers />
   </component>

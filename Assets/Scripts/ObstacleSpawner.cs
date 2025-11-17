@@ -4,9 +4,8 @@ public class ObstacleSpawner : MonoBehaviour
 {
     [SerializeField]
     private GameObject _obstacle;
-
     [SerializeField]
-    private float _yoffssetmin = 1f, _yoffsetmax = 1f;
+    public float _yoffssetmin = 1f, _yoffsetmax = 1f;
     [SerializeField]
     private Playercontroller _player;
     [SerializeField]
@@ -33,5 +32,13 @@ public class ObstacleSpawner : MonoBehaviour
             _timeTillnextspawn -= Time.deltaTime;
         }
          
+    }
+    public void set_yoffsetmax(float value)
+    {
+        _yoffsetmax = value;
+    }
+    public void set_spawnfrequency(float value)
+    {
+        _spawnfrequency = value;
     }
 }
