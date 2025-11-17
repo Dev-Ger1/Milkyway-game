@@ -29,6 +29,9 @@ public class Playercontroller : MonoBehaviour
     [SerializeField]
     private int _valuetillnextsky;
     
+    [SerializeField]
+    private AudioSource _10coinsound;
+    
     
     private Rigidbody2D _rigidbody;
     private int _score = 0;
@@ -87,7 +90,8 @@ public class Playercontroller : MonoBehaviour
         _coinsound.Play();
         if(_score % _valuetillnextsky == 0)
         {
-            _skyController.NextSky(); 
+            _skyController.NextSky();
+            _10coinsound.Play();
         }
         
         

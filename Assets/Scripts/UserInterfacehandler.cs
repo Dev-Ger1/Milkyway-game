@@ -20,6 +20,9 @@ public class UserInterfaceHandler: MonoBehaviour
     public GameObject _endscreen;
     [SerializeField] 
     private AudioSource _intro;
+    [SerializeField]
+    private GameObject _coincounter;
+    
 
     
     
@@ -50,6 +53,7 @@ public class UserInterfaceHandler: MonoBehaviour
 
     public void OnStartPressed()
     {
+        _coincounter.SetActive(true);
         _intro.Stop();
         _player.SetActive(true); 
         _player.transform.position = playerStartpostion;
