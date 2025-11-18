@@ -23,7 +23,9 @@ public class UserInterfaceHandler: MonoBehaviour
     [SerializeField]
     private GameObject _coincounter;
     [SerializeField]
-    private GameObject _difficultybutton;
+    private GameObject _difficultybutton; 
+    [SerializeField]
+    public AudioSource _gamemusic;
     
 
     
@@ -60,7 +62,8 @@ public class UserInterfaceHandler: MonoBehaviour
         _player.SetActive(true); 
         _player.transform.position = playerStartpostion;
        _menuUI.SetActive(false);
-       
+       _gamemusic.Play();
+       _gamemusic.loop = true;
     }
 
     public void On_restartbuttonPressed()
@@ -69,11 +72,7 @@ public class UserInterfaceHandler: MonoBehaviour
         _player.transform.position = playerStartpostion;
         _endscreen.SetActive(false);
     }
-
-    public void On_difficultybuttonPressed()
-    {
         
     }
-    
-    
-}
+
+

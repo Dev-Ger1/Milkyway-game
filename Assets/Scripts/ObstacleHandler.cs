@@ -6,9 +6,11 @@ public class ObstacleHander : MonoBehaviour
     private float _movespeed = 10f;
     [SerializeField]
      private float _minx = -15f;
-    [SerializeField]
-    public GameObject _Coin;
 
+    [SerializeField] 
+    public GameObject _Coin;
+    
+    
     // Update is called once per frame
     void Update()
     {

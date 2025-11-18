@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e0e888b-e3a1-4ac3-bd69-a1960618ba77" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Milkyway-game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Milkyway-game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PreFabs/Obstacles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFabs/Obstacles.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserInterfacehandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserInterfacehandler.cs" afterDir="false" />
     </list>
@@ -111,7 +110,9 @@
       <workItem from="1763296645212" duration="6637000" />
       <workItem from="1763314363192" duration="986000" />
       <workItem from="1763316225789" duration="700000" />
-      <workItem from="1763407092910" duration="2050000" />
+      <workItem from="1763407092910" duration="2204000" />
+      <workItem from="1763485440460" duration="942000" />
+      <workItem from="1763486541736" duration="624000" />
     </task>
     <servers />
   </component>

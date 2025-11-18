@@ -19,9 +19,7 @@ public class Playercontroller : MonoBehaviour
     private SkyController _skyController;
     [SerializeField]
     private AudioSource _jumpsound;
-
-    [SerializeField] 
-    private AudioSource _intro;
+    
 
     [SerializeField]
     private AudioSource _deathsound;
@@ -31,9 +29,11 @@ public class Playercontroller : MonoBehaviour
     
     [SerializeField]
     private AudioSource _10coinsound;
-
     [SerializeField]
-    public GameObject _returntomenubutton;
+    private AudioSource _gamemusic;
+
+   
+    
     
     
     private Rigidbody2D _rigidbody;
@@ -83,7 +83,7 @@ public class Playercontroller : MonoBehaviour
         for(int i = 0; i < obstacles.Length; i++)
             Destroy(obstacles[i].gameObject);
         _skyController.resetsky();
-       _returntomenubutton.SetActive(true); 
+        _gamemusic.Stop();
     }
     
 
@@ -97,6 +97,7 @@ public class Playercontroller : MonoBehaviour
             _skyController.NextSky();
             _10coinsound.Play();
         }
+        
         
         
     }
